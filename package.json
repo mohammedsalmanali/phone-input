@@ -8,6 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "deploy": "ng build && firebase deploy",
+    "build-prod":"ng build --configuration production",
     "build_stats": "ng build --stats-json",
     "analyze": "webpack-bundle-analyzer dist/ngx-intl-tel-input-app/stats.json",
     "build_lib": "ng build ngx-intl-tel-input",
